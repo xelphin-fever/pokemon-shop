@@ -70,11 +70,11 @@ const App = () => {
       <div>
         <Nav/>
         <Switch> 
-          <Route exact path='/' component={Home}/>
-          <Route path='/checkout' component={() => <Checkout cartCost={cartCost} cart={cartRef.current} changeQuantity={updateQuantity} delete={removeItem} />}/>
-          <Route exact path='/shop' component={Shop}/>
-          <Route exact path='/shop/:id' component={() => <ItemInfo update={addCart}/>}/>
-          <Route exact path='/payment' component={Payment}/>
+          <Route exact path='/pokemon-shop/' component={Home}/>
+          <Route path='/pokemon-shop/checkout' component={() => <Checkout cartCost={cartCost} cart={cartRef.current} changeQuantity={updateQuantity} delete={removeItem} />}/>
+          <Route exact path='/pokemon-shop/shop' component={Shop}/>
+          <Route exact path='/pokemon-shop/shop/:id' component={() => <ItemInfo update={addCart}/>}/>
+          <Route exact path='/pokemon-shop/payment' component={Payment}/>
         </Switch>
       </div>
     </Router>

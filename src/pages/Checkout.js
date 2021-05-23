@@ -49,7 +49,7 @@ const Checkout = (props) => {
       <div className="checkout-div-total" onMouseOver={turnToPay} onMouseOut={turnToCost}>
         {toPay===false 
           ? <h2 className="checkout-total" > Total: ${props.cartCost} </h2>
-          : <Link to='/payment'><h2 className="checkout-total" > Pay </h2></Link>
+          : <Link to='/pokemon-shop/payment'><h2 className="checkout-total" > Pay </h2></Link>
         }
       </div>
       

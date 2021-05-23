@@ -6,14 +6,14 @@ import ShoppingCartOutlinedIcon from '@material-ui/icons/ShoppingCartOutlined';
 const Nav = () => {
   return (
     <nav>
-      <Link to='/'>
+      <Link to='/pokemon-shop/'>
         <img className="logo" src={logo} alt="logo"/>
       </Link>
       <ul className='nav-links'>
-        <Link to='/shop'>
+        <Link to='/pokemon-shop/shop'>
           <li>Shop</li>
         </Link>
-        <Link to='/checkout'>
+        <Link to='/pokemon-shop/checkout'>
           <li>
             <ShoppingCartOutlinedIcon/>
           </li>
