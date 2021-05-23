@@ -1,0 +1,28 @@
+.checkout-div{
+  padding: 50px;
+  width: 100%;
+  position: relative;
+}
+
+.checkout-title{
+  font-size: 120px;
+  margin-bottom: 30px;
+}
+
+.checkout-div-total{
+  background-color: rgb(248, 209, 102);
+  width: 550px;
+  position: fixed;
+  right: 100px;
+  bottom: 100px;
+  padding: 20px 35px;
+}
+
+.checkout-total{
+  font-size: 80px;
+  color:white;
+  text-shadow: 4px 4px rgb(216, 181, 83);
+  width: fit-content;
+  margin: 0 auto;
+
+}

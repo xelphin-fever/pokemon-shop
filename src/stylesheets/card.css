@@ -1,0 +1,40 @@
+
+
+.card-div {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  background-color: white;
+  padding: 15px 0;
+  transition: 0.15s all linear;
+  margin: 20px;
+}
+.card-div:hover {
+  transform: scale(0.95);
+  transform: translate(5px, 5px);
+}
+/*
+.card-div:hover > .card-img-div img {
+}
+*/
+.card-img-div img {
+  transition: 0.15s all linear;
+  background-color: rgb(247, 247, 247);
+  width: 100%;
+}
+
+.card-text-div {
+  display: inline-block;
+  width: fit-content;
+  font-size: 25px;
+  padding: 10px;
+  text-shadow: -3px -3px rgb(226, 222, 202);
+  transition: 0.15s all linear;
+  color:  rgb(128, 110, 77);
+}
+.card-text-price{
+  font-size: 20px;
+}
+.card-div:hover > .card-text-div {
+  text-shadow: -2px -2px rgb(226, 222, 202);
+}

@@ -1,0 +1,29 @@
+
+.item-info-div{
+  display:flex;
+  flex-direction: row;
+  width: 100%;
+  justify-content: space-around;
+  padding: 80px;
+}
+
+.item-img-div{
+  width: 30%;
+}
+
+.item-img-div img{
+  width: 100%;
+  background-color: rgb(247, 247, 247);
+}
+
+.item-text-div{
+  display: flex;
+  flex-direction: column;
+  width: fit-content;
+  align-items: center;
+  
+}
+
+.item-text-name{
+  font-size: 80px;
+}
