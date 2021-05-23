@@ -1,0 +1,24 @@
+{
+  "files": {
+    "main.css": "/pokemon-shop/static/css/main.7b1e10b0.chunk.css",
+    "main.js": "/pokemon-shop/static/js/main.b50b8e69.chunk.js",
+    "main.js.map": "/pokemon-shop/static/js/main.b50b8e69.chunk.js.map",
+    "runtime-main.js": "/pokemon-shop/static/js/runtime-main.933a2d3a.js",
+    "runtime-main.js.map": "/pokemon-shop/static/js/runtime-main.933a2d3a.js.map",
+    "static/js/2.8111dd37.chunk.js": "/pokemon-shop/static/js/2.8111dd37.chunk.js",
+    "static/js/2.8111dd37.chunk.js.map": "/pokemon-shop/static/js/2.8111dd37.chunk.js.map",
+    "static/js/3.fa3ba3ed.chunk.js": "/pokemon-shop/static/js/3.fa3ba3ed.chunk.js",
+    "static/js/3.fa3ba3ed.chunk.js.map": "/pokemon-shop/static/js/3.fa3ba3ed.chunk.js.map",
+    "index.html": "/pokemon-shop/index.html",
+    "static/css/main.7b1e10b0.chunk.css.map": "/pokemon-shop/static/css/main.7b1e10b0.chunk.css.map",
+    "static/js/2.8111dd37.chunk.js.LICENSE.txt": "/pokemon-shop/static/js/2.8111dd37.chunk.js.LICENSE.txt",
+    "static/media/pikachu.342f1da7.png": "/pokemon-shop/static/media/pikachu.342f1da7.png",
+    "static/media/pokeball.1faeca5f.png": "/pokemon-shop/static/media/pokeball.1faeca5f.png"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.933a2d3a.js",
+    "static/js/2.8111dd37.chunk.js",
+    "static/css/main.7b1e10b0.chunk.css",
+    "static/js/main.b50b8e69.chunk.js"
+  ]
+}
